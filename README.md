@@ -16,7 +16,7 @@ renv::restore()
 Usage:
 
 ```bash
-source("lmm_group_comparison.R")
+source("group_comparison_lmm.R")
 ```
 
 Cite As
