@@ -2,7 +2,7 @@
 Script to perform group comparisons using linear mixed-effects models ([Fan et al, 2011](https://doi.org/10.1167/iovs.10-7108)). Medical data from the PAPILA dataset ([Kovalyk et al, 2022](https://doi.org/10.1038/s41597-022-01388-1)) is used for demonstration. For a given model, the groups are designated as the fixed effect and subjects as the random effect. The model is given by the following equation,
 
 $$
-Y_{ij} = \beta_0 + \beta_1 \cdot \text{Group}_{ij} + u_{0i} + \epsilon_{ij}
+Y_{ij} = \beta_0 + \beta_1 \cdot \text{group}_{ij} + u_{0i} + \epsilon_{ij}
 $$
 
 where $\beta_0$ is the intercept, $\beta_1$ is the fixed effect slope, $u_{0i}$ is the random effect for each subject ($i$), and $\epsilon_{ij}$ represents the residual error for each subject ($i$) and observation ($j$).
